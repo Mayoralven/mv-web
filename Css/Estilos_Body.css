@@ -1,8 +1,15 @@
+
 Body {
   font-family: 'Roboto Mono', monospace, Arial, sans-serif;
   background-color: #070707;
   overflow-x: hidden !important;
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAA9CAYAAAAeYmHpAAAACXBIWXMAAAsSAAALEgHS3X78AAADNUlEQVRoge2ZsW7UQBCG/yA6MFwfAUGiBHEdBcLcIxwWdXIvEJQiLZATtEB4ggRRY4KokXxOHXGgVFSReAACTh804vdpcOzz3p0dW9r9pNNp12t7f894dna8dHp6Ctu4YJ1iABdnPcFPwhUAPf5WMoePAIwBRLEXjKubZrUYu7efhAMAGwDuGs7gJ4DXAHZjLzhuh9x/lIr2k7ArE88RewLgAMAxf2L1WwCWM+NE/JPYC/aqn/58TBXtJ6FY9o3qSmi9vSL3pfv3AWxmHsC72AsGjaolhaL9JBTrrqmuIYDtWVyVD+0FgMvsGskDadrdc0X7SbgF4Dmb4sYP5g1MtPxnALfZ1bjFz4j2k1Bc8yOb4s7+opHYT8IOgH0lfBh7wdYi11yE/0Rzct8BXFvUwlky1xZuxl5w1ITobHKyoSb1tMq1lu/xqupqjaX/APAAHMZecKeOG2YCZCPWnlia77LH5qsa76ktvFHjfQrR7t3n/0nsBbumF/CTsCc/0/G07CGbxudVic69u/z/YihWxkuWdYPt32I5wwf2gZHcNKWtFG3pdAKlwYuROEoFk6sAdgytHqlrnbu187aWJhF7QJFFx1pNnmiTFLEz5Vh2u9k68kSbTHraMtPafXTKvKIlgH3L6Zdgtm1wvvaUc998aNGpiNLAwuxKxn1S3bKD6hkmG5N7NFFh0UtWxAj+UKJz2faPx/vTxkzhMQ+NFhUwD9rSurJRWwTmEpUWFxqppkxEx14QsbQjbHItroOX6prGmV+VZAPZM/4v17ELYn5/n823TVVQ8ooIY5WdPaqqoMe0dZ+lIylOXG9KdN6SNWABQXjPyS5ERrCw2mSd7IxoLiHrbF4C8JUFvrlg4NKCh02Xg6dVQ8XiO6pLlpeB6aafBcEtFgzkJkt8jxvZQ2vK6t5pAnJFdY8YdaPsA2DE73H91uVjeV3WZ9mn14nJF44OU8u1giE/APwCcK/g+Ewe0grRKXRXcc1AFQ+LkOgc8jtWVDL23Jnr+zSjcTdncyIRedxGoRr3Ud4WnGhbcKJtwYm2BSfaFpxoW3CibcGJtgUn2hacaFtwom3BibYFJ9oWnGgrAPAX8ksqtxIjkJEAAAAASUVORK5CYII=), auto;
 }
+
+a {
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAA9CAYAAAAeYmHpAAAACXBIWXMAAAsSAAALEgHS3X78AAABwklEQVRoge3bMU7DQBAF0A9ya4mOlhtwAgwltU9AbsAVKOm4AbkArikjnwBuQJsO4YYCyWhRXBARdr2enZ3Z3S9FKWyt/CI7jmcmR+M4IrdUxtsM3eYPd7V7/xLwmdz2dftCtdgEu6RaMFBOKJc9liTjSkHnkizRlcM++9kCWAP4DHtov/JGuZgP+hTANYCrvm7fKQ+GK76n9zmATTN0pLcSriy5ptXCbeh7y3aVcBv6GcDKso86uPX07ut2nRrc6ZpODe78RZYSfNa3dyrw2besFOBe92ntcO8fJ5rhi56ytMIXP1pqhJM8T2uDkxURNMFJKyda4OTlIg3wIDUy6fBghUHJ8KDVUKnw4CVgiXCWurc0OFuxXxKctcMhBc7e1pEAj9LLig2P1sCLCY/atYwFj96qjQEX0Z/mhotpynPCRU0icMGnpvzdge2kEwAuMfBm6Myej//sPsG9BgPETgw2Q3djgZu8+kxEiB20CXmqi54uCgUXP1IVAq5ijmwO3GU9NcNzjvAHl7VUTQxa4KvddmvUjUkegDuDoXU2dA8+C/wT8+NE6+vi4+nM59iz/A9HmffOJQWdSwo6lxR0FgHwDd/flpYz7qDzAAAAAElFTkSuQmCC), auto;
+}
+
 
 
 .px-150 {
@@ -77,6 +84,11 @@ Body {
 
 .texto-sec {
   font-size: 20px;
+  color: #fff;
+}
+
+.texto-about {
+  font-size: 16px;
   color: #fff;
 }
 
@@ -476,10 +488,17 @@ footer a:hover {
 }
 
 
+form input {
+  opacity: 100%;
+}
 
+.Formulario-contacto {
 
-
-
+  background-color: #0c0c0c;
+  border: 1px solid #4b4b4b;
+  padding: 30px 10px;
+ font-family: 'Roboto', Arial, sans-serif;;
+}
 
 
 
@@ -511,6 +530,10 @@ footer a:hover {
 
   .texto-sec {
     font-size: 17px;
+  }
+
+  .texto-about {
+    font-size: 14px;
   }
 
   .texto-big {

@@ -70,13 +70,62 @@
 
 
 
-<!-- Aquí empieza el resúmen -->
+<!-- Aquí empieza el formulario -->
 
 <div class="container d-flex flex-column flex-lg-row gap-5 pad pb-5">
 
-  <div data-aos="fade-up" class="col-lg-6 col-12" style="overflow: hidden;">        
-        <img src="images/Diseñador ux ui-Pablo Mayoral.jpg" class="img-fluid w-100" alt="">        
-  </div>
+  <form id="contact-form" method="post" action="contact.php" role="form" class="Formulario-contacto text-white ">
+
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_name" class="pb-2">Nombre *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Dinos tu nombre *" required="required" data-error="Nombre requerido">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>       
+        </div>
+
+            <div class="row  pt-3">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email" class="pb-2">Mail *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Correo de contacto *" required="required" data-error="Correo electrónico válido es requerido">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_phone" class="pb-2">Teléfono</label>
+                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Número de teléfono">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+
+              </div>
+
+           
+        
+        <div class="row pt-3">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message" class="pb-2">Mensaje *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Cuentanos un poco sobre lo que estás buscando. *" rows="4" required="required" data-error="Por favor, deja un mensaje."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12 pt-4">
+                <input type="submit" class="btn btn-outline-dark btn-send text-white" value="Enviar mensaje">
+            </div>
+        </div>
+       
+    </div>
+
+</form>
 
   <div data-aos="fade-up" data-aos-delay="500" class="col-12 col-xl-6 d-flex flex-column justify-content-center align-items-center ps-lg-5 ">
     <div>
@@ -89,42 +138,16 @@
   </div>
 
 </div>
-  <!-- Aquí termina el resúmen -->
+  <!-- Aquí termina el formulario -->
 
-<div class="container pad py-4">
-    <h2 class="h2-titulo">Diseña una web mejor, un proyecto a la vez.</h2>
 
-    <p class="texto-about pt-3">Somos un equipo profesional de diseño web, branding,
-      comercio electrónico, ux y diseño de interfaz de usuario que se especializa en crear productos digitales
-      efectivos y de alta calidad en la web. Mantenemos un equipo de diseñadores consumados con más de 10 años
-      de experiencia brindando a los clientes las mejores soluciones en línea para promocionar sus productos y
-      servicios.</p>
-</div>
 
-<div class="container pad py-4">
-    <h2 class="h2-titulo">Diseña una web mejor, un proyecto a la vez.</h2>
-
-    <p class="texto-about pt-3">Somos un equipo profesional de diseño web, branding,
-      comercio electrónico, ux y diseño de interfaz de usuario que se especializa en crear productos digitales
-      efectivos y de alta calidad en la web. Mantenemos un equipo de diseñadores consumados con más de 10 años
-      de experiencia brindando a los clientes las mejores soluciones en línea para promocionar sus productos y
-      servicios.</p>
-</div>
-
-<div class="container my-5 pad">
-  <div class="col-12 d-flex justify-content-center pb-5">
-    <p class="fs-2 text-white">¿Empezamos? pincha la bolita.</p>
-  </div>
-
-  <div class="col-12 d-flex justify-content-center">
-    <a href="Contacto.html" class="presupuesto ">
-      <div class="d-inline-flex align-items-center gap-md-4 gap-3"><img src="images/shapes-5-circle-20.png"
-          class="img-fluid img-sec" alt="">
-        <p class="fs-6 text-white pt-2 pres"> Quiero un presupuesto </p>
-      </div>
-    </a>
+<div class="container mb-5 pad">
+  <div class="col-12 pb-5">
+    <p class="fs-2 text-white">Gracias por tu interés <3</p>
   </div>
 </div>
+
 
 
   <footer class="py-3 pad">
