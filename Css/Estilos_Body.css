@@ -21,6 +21,11 @@ a {
   height: 100vh;
 }
 
+.hero-port {
+  padding-top: 120px;
+  padding-bottom: 170px !important;
+}
+
 ::selection {
   Background-Color: #909090;
 }
@@ -81,7 +86,6 @@ a {
   color: #00E594;
 }
 
-
 .texto-sec {
   font-size: 20px;
   color: #fff;
@@ -90,6 +94,15 @@ a {
 .texto-about {
   font-size: 16px;
   color: #fff;
+}
+
+.green {
+  color: #00E594;
+}
+
+.texto-portfolio {
+  font-size: 16px;
+  color: #000;
 }
 
 .texto-big {
@@ -618,6 +631,10 @@ form input {
     font-size: 28px;
   }
 
+  .hero-port {
+    padding-top: 90px;
+    padding-bottom: 90px !important;
+  }
 
 }
 
@@ -672,6 +689,12 @@ form input {
     font-size: 50px;
     padding-top: 50px;
   }
+
+  .hero-port {
+    padding-top: 0px;
+    padding-bottom: 80px !important;
+  }
+  
 
   .texto-big {
     font-size: 50px;
