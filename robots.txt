@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /css
+Disallow: /private/
+Sitemap: https://mayoralven.com/sitemap.xml
